@@ -1,0 +1,14 @@
+var a=1;
+let b=2;
+const COST=14;
+
+if(COST>10){
+    var a=5;
+    let b=4;
+}
+console.log(a); //5
+console.log(b); //2
+
+/* COST = 20; // -> TypeError: Assignment to constant variable.
+   On ne peut pas réaffecter une const. Cela provoque une erreur à l'exécution. */
+
