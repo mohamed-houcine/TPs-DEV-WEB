@@ -1,0 +1,9 @@
+
+<div *ngFor="let l of arr"
+>
+    <h3>{{l.name}}</h3>
+    <p
+    [ngClass]="{'sup':l.stock>50,'moy':l.stock>=20 && l.stock<=50,'inf':l.stock<20}"
+
+    >{{l.stock}}</p>
+</div>

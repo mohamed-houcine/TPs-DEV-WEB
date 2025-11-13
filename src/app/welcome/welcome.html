@@ -1,0 +1,3 @@
+<input type="text">
+<p *ngIf="isLoggedIn">Bienvenue, utilisateur!</p>
+<button (click)="toggleIsLoggedIn()">{{isLoggedIn?'Se déconnecter ':'Se connecter'}}</button>
